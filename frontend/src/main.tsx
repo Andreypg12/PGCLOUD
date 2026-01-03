@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import './index.css'
 
@@ -9,7 +9,7 @@ import Layout from './components/layout/Layout.tsx';
 import Home from './components/Home/Home.tsx';
 import PageNotFound from './components/Home/PageNotFound.tsx';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Layout />,
