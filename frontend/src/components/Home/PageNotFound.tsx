@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import { Button } from "../components/ui/button";
+import { Button } from "../ui/button";
 import { ArrowLeft } from "lucide-react";
-import error from "../assets/error.jpg";
+import error from "../../assets/error.jpg";
 
 export default function PageNotFound() {
   const navigate = useNavigate();

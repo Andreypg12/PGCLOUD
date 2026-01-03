@@ -16,7 +16,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --background: oklch(94.007% 0.00011 271.152);
   --foreground: oklch(0.13 0.028 261.692);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.13 0.028 261.692);
@@ -185,4 +185,10 @@ button:focus-visible {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+
+#header{
+  background-color: #f6f8fa;
+  border: solid 2px #d1d9e0;
 }
