@@ -60,7 +60,7 @@ export default function Home() {
       {/* ACCIONES */}
       <section className="max-w-7xl mx-auto">
         <h2 className="text-xl font-semibold text-slate-800 mb-4 text-center">
-          Archivos y ficheros
+          Archivos y directorios
         </h2>
 
         <div className="flex flex-col sm:flex-row gap-4">
