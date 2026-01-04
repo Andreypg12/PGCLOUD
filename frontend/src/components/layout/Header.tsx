@@ -7,7 +7,7 @@ import logo from "@/assets/logo.png";
 
 export default function Header() {
     return (
-        <header id="header" className="border-b">
+        <header id="header" className="bordePersonalizado">
             <div className="mx-auto flex h-16 items-center gap-8 px-20">
 
                 {/* Logo */}

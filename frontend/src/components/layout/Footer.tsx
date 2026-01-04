@@ -3,7 +3,7 @@ import { Facebook, House, Instagram, Cloudy } from "lucide-react";
 
 export default function Footer() {
     return (
-        <footer className="w-full border-t border-gray-700 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 px-4 py-8 text-gray-300">
+        <footer className="w-full border-t border-gray-700 bg-linear-to-r from-gray-900 via-gray-800 to-gray-900 px-4 pt-6 pb-4 text-gray-300">
 
             {/* Contenido principal */}
             <div className="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-start md:justify-between">
