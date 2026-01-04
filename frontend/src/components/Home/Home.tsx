@@ -1,9 +1,4 @@
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 import { Button } from "@/components/ui/button";
 
@@ -18,22 +13,17 @@ import {
 
 export default function Home() {
   return (
-
     <main className="h-full bg-linear-to-b from-slate-50 to-slate-100 p-6">
-
       {/* TÍTULO */}
       <section className="max-w-7xl mx-auto mb-10">
         <h1 className="text-3xl font-bold text-slate-800">
           Archivos recientes
         </h1>
-        <p className="text-slate-500 mt-1">
-          Los últimos archivos que abriste
-        </p>
+        <p className="text-slate-500 mt-1">Los últimos archivos que abriste</p>
       </section>
 
       {/* CARDS */}
       <section className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-
         <Card className="hover:shadow-lg transition cursor-pointer">
           <CardHeader className="flex flex-row items-center gap-3">
             <FileImage className="text-indigo-500" />
@@ -63,7 +53,6 @@ export default function Home() {
             Abierto hace 3 días
           </CardContent>
         </Card>
-
       </section>
 
       <hr className="my-6 border-gray-300" />
@@ -75,21 +64,15 @@ export default function Home() {
         </h2>
 
         <div className="flex flex-col sm:flex-row gap-4">
-
-          <Button
-            variant="secondary" className="flex-1 h-14 text-base gap-2">
+          <Button variant="secondary" className="flex-1 h-14 text-base gap-2">
             <FilePlusCorner />
             Nuevo archivo
           </Button>
 
-          <Button
-            variant="secondary"
-            className="flex-1 h-14 text-base gap-2"
-          >
+          <Button variant="secondary" className="flex-1 h-14 text-base gap-2">
             <FolderPlus />
             Nueva carpeta
           </Button>
-
         </div>
       </section>
 
@@ -99,9 +82,7 @@ export default function Home() {
           Mis archivos
         </h2>
 
-        <div
-          className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-8"
-        >
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-8">
           {/* CARPETA */}
           <div className="group cursor-pointer flex flex-col items-center">
             <div className="p-4 rounded-xl group-hover:bg-slate-200 transition">
@@ -117,9 +98,7 @@ export default function Home() {
             <div className="p-4 rounded-xl group-hover:bg-slate-200 transition">
               <FileImage className="h-14 w-14 text-indigo-500" />
             </div>
-            <p className="mt-2 text-sm text-slate-800 text-center">
-              foto.png
-            </p>
+            <p className="mt-2 text-sm text-slate-800 text-center">foto.png</p>
           </div>
 
           {/* PDF */}
@@ -146,13 +125,10 @@ export default function Home() {
             <div className="p-4 rounded-xl group-hover:bg-slate-200 transition">
               <FileText className="h-14 w-14 text-slate-500" />
             </div>
-            <p className="mt-2 text-sm text-slate-800 text-center">
-              notas.txt
-            </p>
+            <p className="mt-2 text-sm text-slate-800 text-center">notas.txt</p>
           </div>
         </div>
       </section>
-
     </main>
   );
 }
