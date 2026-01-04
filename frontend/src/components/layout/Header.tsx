@@ -1,14 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-import {
-    Menubar,
-    MenubarMenu,
-    MenubarTrigger,
-    MenubarContent,
-    MenubarItem,
-} from "@/components/ui/menubar";
-
 import { Button } from "@/components/ui/button";
 import { Menu, X, Home, Folder, User } from "lucide-react";
 
